@@ -1,0 +1,132 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="041BD801-26F2-A490-84E4-E982999FF85D" name="Patient">
+<createdBy>Kevin</createdBy>
+<createdTime>2022-06-28 17:30:11 UTC</createdTime>
+<generatorID>1F2DFAF0-AD1D-9721-31BC-DE5CAF3D667A</generatorID>
+<ownerDesignName>estructura laboratorio clinico</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Patient_Id" id="11EE2D93-38A4-6DC8-DCAB-DB4BD9BFCE9E">
+<createdBy>Kevin</createdBy>
+<createdTime>2022-06-28 17:30:11 UTC</createdTime>
+<generatorID>16FFF470-3F19-59A6-155B-5247EAFF9C3F</generatorID>
+<ownerDesignName>estructura laboratorio clinico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Last_Names" id="4E92C330-6500-17DD-3AC9-7EFB7252E336">
+<createdBy>Kevin</createdBy>
+<createdTime>2022-06-28 17:30:11 UTC</createdTime>
+<generatorID>8C059C00-8904-764D-38AE-8CB40E93EAC2</generatorID>
+<ownerDesignName>estructura laboratorio clinico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Names" id="AD6912E0-2643-3B35-8315-B6702076CE30">
+<createdBy>Kevin</createdBy>
+<createdTime>2022-06-28 17:30:11 UTC</createdTime>
+<generatorID>7FF396FE-E55A-008A-9297-43B636F1062F</generatorID>
+<ownerDesignName>estructura laboratorio clinico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Age" id="85644073-9F99-1D97-BD3E-B7CDA64AFBB4">
+<createdBy>Kevin</createdBy>
+<createdTime>2022-06-28 17:30:11 UTC</createdTime>
+<generatorID>B09D73C7-D870-52BF-45C3-4B9E79917D22</generatorID>
+<ownerDesignName>estructura laboratorio clinico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Birthday" id="1EBC5C8F-8EAE-3194-23B2-7A865F12EA86">
+<createdBy>Kevin</createdBy>
+<createdTime>2022-06-28 17:30:11 UTC</createdTime>
+<generatorID>020007A8-58E2-D167-203E-CDE95F911818</generatorID>
+<ownerDesignName>estructura laboratorio clinico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Gender" id="B73DB0A9-91FD-EDA3-3456-0E17FC690619">
+<createdBy>Kevin</createdBy>
+<createdTime>2022-06-28 17:30:11 UTC</createdTime>
+<generatorID>573D1A86-ABE5-9B95-3274-F7BA67CDF9FF</generatorID>
+<ownerDesignName>estructura laboratorio clinico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Receipt_Date" id="122BCC25-DB09-6FEB-6E51-C808ADBFC544">
+<createdBy>Kevin</createdBy>
+<createdTime>2022-06-28 17:30:11 UTC</createdTime>
+<generatorID>72550587-6001-96A2-07D1-92C4D3B7C7CC</generatorID>
+<ownerDesignName>estructura laboratorio clinico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Blood_Type" id="02D099E1-2E6C-E7E9-72D1-A5403C34FA95">
+<createdBy>Kevin</createdBy>
+<createdTime>2022-06-28 17:30:11 UTC</createdTime>
+<generatorID>850EBDE7-F00B-7D7D-E3FE-9A63297CCBC2</generatorID>
+<ownerDesignName>estructura laboratorio clinico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Phone_Number" id="2CACA5BD-04FB-E338-5702-D6196E888FB0">
+<createdBy>Kevin</createdBy>
+<createdTime>2022-06-28 17:30:11 UTC</createdTime>
+<generatorID>B6B7ED71-E200-AF6D-B7B8-EE31D8294F66</generatorID>
+<ownerDesignName>estructura laboratorio clinico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CD386FCF-9796-8CDD-1C95-C43ECC34669D" name="Patient_PK">
+<createdBy>Kevin</createdBy>
+<createdTime>2022-06-28 17:30:11 UTC</createdTime>
+<generatorID>BE8E2244-BF61-E139-8BAD-97D7479985F2</generatorID>
+<ownerDesignName>estructura laboratorio clinico</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="11EE2D93-38A4-6DC8-DCAB-DB4BD9BFCE9E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

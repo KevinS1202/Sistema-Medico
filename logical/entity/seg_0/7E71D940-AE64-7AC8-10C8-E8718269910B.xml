@@ -1,0 +1,309 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7E71D940-AE64-7AC8-10C8-E8718269910B" name="Clinic history">
+<createdBy>Kevin</createdBy>
+<createdTime>2022-06-27 10:06:15 UTC</createdTime>
+<generatorID>E39BF986-EA4C-8B8F-AF59-7759B73512FA</generatorID>
+<ownerDesignName>estructura laboratorio clinico</ownerDesignName>
+<engineerTo>
+<item key="476456B6-24B7-57AB-C310-599D3F1C0C26" value="true"/>
+<item key="B2F83DAD-44CF-7CBC-1FC7-17EB85EED4A5" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Doctor Id" id="F1B6FB85-E33D-8099-AF73-EEF8978E51F3">
+<createdBy>Kevin</createdBy>
+<createdTime>2022-06-27 10:06:15 UTC</createdTime>
+<generatorID>08E063FA-653E-BAA1-D2CD-46D422A19DD8</generatorID>
+<ownerDesignName>estructura laboratorio clinico</ownerDesignName>
+<engineerTo>
+<item key="476456B6-24B7-57AB-C310-599D3F1C0C26" value="true"/>
+<item key="B2F83DAD-44CF-7CBC-1FC7-17EB85EED4A5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Patient Id" id="E90E352D-861A-BA19-BCE0-E45B77994CEA">
+<createdBy>Kevin</createdBy>
+<createdTime>2022-06-27 10:06:15 UTC</createdTime>
+<generatorID>8C3164D4-D401-5A81-C908-C451C8C5F12E</generatorID>
+<ownerDesignName>estructura laboratorio clinico</ownerDesignName>
+<engineerTo>
+<item key="476456B6-24B7-57AB-C310-599D3F1C0C26" value="true"/>
+<item key="B2F83DAD-44CF-7CBC-1FC7-17EB85EED4A5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Specialty" id="0DD35838-8320-D85D-6815-0FC64A622534">
+<createdBy>Kevin</createdBy>
+<createdTime>2022-06-27 10:06:15 UTC</createdTime>
+<generatorID>DC19D1FE-A71D-356D-42B6-50D575299192</generatorID>
+<ownerDesignName>estructura laboratorio clinico</ownerDesignName>
+<engineerTo>
+<item key="476456B6-24B7-57AB-C310-599D3F1C0C26" value="true"/>
+<item key="B2F83DAD-44CF-7CBC-1FC7-17EB85EED4A5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Level of knowledge" id="75AA26BA-DE7B-2244-DB99-1A8E45A6C021">
+<createdBy>Kevin</createdBy>
+<createdTime>2022-06-27 10:06:15 UTC</createdTime>
+<generatorID>E20E985D-C4DC-7DF1-89C3-BEEC959B10A7</generatorID>
+<ownerDesignName>estructura laboratorio clinico</ownerDesignName>
+<engineerTo>
+<item key="476456B6-24B7-57AB-C310-599D3F1C0C26" value="true"/>
+<item key="B2F83DAD-44CF-7CBC-1FC7-17EB85EED4A5" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Office Number" id="C1E281B4-B1D3-1E30-5732-A7A19C258E1A">
+<createdBy>Kevin</createdBy>
+<createdTime>2022-06-27 10:06:15 UTC</createdTime>
+<generatorID>1554911E-CF56-A0A8-FDFC-BC6C4B5716EC</generatorID>
+<ownerDesignName>estructura laboratorio clinico</ownerDesignName>
+<engineerTo>
+<item key="476456B6-24B7-57AB-C310-599D3F1C0C26" value="true"/>
+<item key="B2F83DAD-44CF-7CBC-1FC7-17EB85EED4A5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Doctor Diagnostic" id="CA239B8D-AFBC-3605-6753-4C8B518CF162">
+<createdBy>Kevin</createdBy>
+<createdTime>2022-06-27 10:06:15 UTC</createdTime>
+<generatorID>0522F267-1261-5E1C-5922-27223FF56EAF</generatorID>
+<ownerDesignName>estructura laboratorio clinico</ownerDesignName>
+<engineerTo>
+<item key="476456B6-24B7-57AB-C310-599D3F1C0C26" value="true"/>
+<item key="B2F83DAD-44CF-7CBC-1FC7-17EB85EED4A5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>150 CHAR</dataTypeSize>
+<ownDataTypeParameters>150 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Background" id="AF203AED-DF27-09E8-3B2E-67160D576386">
+<createdBy>Kevin</createdBy>
+<createdTime>2022-06-27 10:06:15 UTC</createdTime>
+<generatorID>7BD6CEF8-35B5-2E75-D9EC-D122B8E160FF</generatorID>
+<ownerDesignName>estructura laboratorio clinico</ownerDesignName>
+<engineerTo>
+<item key="476456B6-24B7-57AB-C310-599D3F1C0C26" value="true"/>
+<item key="B2F83DAD-44CF-7CBC-1FC7-17EB85EED4A5" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>150 CHAR</dataTypeSize>
+<ownDataTypeParameters>150 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Conducted Studies" id="0B2EF8B6-D548-AF97-2F70-17EAB2533F15">
+<createdBy>Kevin</createdBy>
+<createdTime>2022-06-27 10:06:15 UTC</createdTime>
+<generatorID>C864FDE0-8E82-16FE-7A5A-07BC18976F50</generatorID>
+<ownerDesignName>estructura laboratorio clinico</ownerDesignName>
+<engineerTo>
+<item key="476456B6-24B7-57AB-C310-599D3F1C0C26" value="true"/>
+<item key="B2F83DAD-44CF-7CBC-1FC7-17EB85EED4A5" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Forecast" id="4471253B-D356-AC7C-C9D8-1A1A61097388">
+<createdBy>Kevin</createdBy>
+<createdTime>2022-06-27 10:06:15 UTC</createdTime>
+<generatorID>B16AD554-1C97-93D6-643E-1FA06824AB09</generatorID>
+<ownerDesignName>estructura laboratorio clinico</ownerDesignName>
+<engineerTo>
+<item key="476456B6-24B7-57AB-C310-599D3F1C0C26" value="true"/>
+<item key="B2F83DAD-44CF-7CBC-1FC7-17EB85EED4A5" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>150 CHAR</dataTypeSize>
+<ownDataTypeParameters>150 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Evolution of the disease" id="25CFA6FF-6CBC-132F-23A0-CCF58082EC43">
+<createdBy>Kevin</createdBy>
+<createdTime>2022-06-27 10:06:15 UTC</createdTime>
+<generatorID>3A539895-AEE2-E789-0B37-BCDA576A6A12</generatorID>
+<ownerDesignName>estructura laboratorio clinico</ownerDesignName>
+<engineerTo>
+<item key="476456B6-24B7-57AB-C310-599D3F1C0C26" value="true"/>
+<item key="B2F83DAD-44CF-7CBC-1FC7-17EB85EED4A5" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>150 CHAR</dataTypeSize>
+<ownDataTypeParameters>150 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Treatmeant" id="5648FDCF-E319-83DC-54A6-8068D3084357">
+<createdBy>Kevin</createdBy>
+<createdTime>2022-06-27 10:06:15 UTC</createdTime>
+<generatorID>F0BFC19D-ACA1-1A20-71BB-C63EC475AE69</generatorID>
+<ownerDesignName>estructura laboratorio clinico</ownerDesignName>
+<engineerTo>
+<item key="476456B6-24B7-57AB-C310-599D3F1C0C26" value="true"/>
+<item key="B2F83DAD-44CF-7CBC-1FC7-17EB85EED4A5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>150 CHAR</dataTypeSize>
+<ownDataTypeParameters>150 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Commentaries" id="AE1F2E7C-03E5-8BE8-7AE4-9D3F7F2C595A">
+<createdBy>Kevin</createdBy>
+<createdTime>2022-06-27 10:06:15 UTC</createdTime>
+<generatorID>44BCF243-0F91-D026-241A-5ED1C18B4DC2</generatorID>
+<ownerDesignName>estructura laboratorio clinico</ownerDesignName>
+<engineerTo>
+<item key="476456B6-24B7-57AB-C310-599D3F1C0C26" value="true"/>
+<item key="B2F83DAD-44CF-7CBC-1FC7-17EB85EED4A5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>150 CHAR</dataTypeSize>
+<ownDataTypeParameters>150 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Conducted Analysis" id="1DCE2F15-3C22-5664-B425-991D571C5920">
+<createdBy>Kevin</createdBy>
+<createdTime>2022-06-27 10:06:15 UTC</createdTime>
+<generatorID>09D3AF76-14BC-4350-C193-96143FBA8071</generatorID>
+<ownerDesignName>estructura laboratorio clinico</ownerDesignName>
+<engineerTo>
+<item key="476456B6-24B7-57AB-C310-599D3F1C0C26" value="true"/>
+<item key="B2F83DAD-44CF-7CBC-1FC7-17EB85EED4A5" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>150 CHAR</dataTypeSize>
+<ownDataTypeParameters>150 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Result Analysis" id="9162A48B-C2FC-C890-5899-5606CB479BF1">
+<createdBy>Kevin</createdBy>
+<createdTime>2022-06-27 10:06:15 UTC</createdTime>
+<generatorID>BF234AAD-F9F4-8954-7B31-517937DBE663</generatorID>
+<ownerDesignName>estructura laboratorio clinico</ownerDesignName>
+<engineerTo>
+<item key="476456B6-24B7-57AB-C310-599D3F1C0C26" value="true"/>
+<item key="B2F83DAD-44CF-7CBC-1FC7-17EB85EED4A5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT035</logicalDatatype>
+<dataTypeSize>150 CHAR</dataTypeSize>
+<ownDataTypeParameters>150 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Receipt Date" id="F83BB588-81B1-DBE0-A2B4-8B4FDAF02E8D">
+<createdBy>Kevin</createdBy>
+<createdTime>2022-06-27 10:06:15 UTC</createdTime>
+<generatorID>20093B45-EBFE-438C-E1D3-92DF1BF62002</generatorID>
+<ownerDesignName>estructura laboratorio clinico</ownerDesignName>
+<engineerTo>
+<item key="476456B6-24B7-57AB-C310-599D3F1C0C26" value="true"/>
+<item key="B2F83DAD-44CF-7CBC-1FC7-17EB85EED4A5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Receipt Results Date" id="7DB00B61-E4B6-781C-5AF5-9A1C1C0E877A">
+<createdBy>Kevin</createdBy>
+<createdTime>2022-06-27 10:06:15 UTC</createdTime>
+<generatorID>C0E228B4-02F9-E5A2-AA7E-47A1790740F3</generatorID>
+<ownerDesignName>estructura laboratorio clinico</ownerDesignName>
+<engineerTo>
+<item key="476456B6-24B7-57AB-C310-599D3F1C0C26" value="true"/>
+<item key="B2F83DAD-44CF-7CBC-1FC7-17EB85EED4A5" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Patient Id1" id="90D46643-6DAD-77A0-8A71-730B43177D43">
+<createdBy>Kevin</createdBy>
+<createdTime>2022-06-27 10:12:17 UTC</createdTime>
+<generatorID>F1EF1EBD-A8DC-14DA-629D-30B2ABCB9023</generatorID>
+<ownerDesignName>estructura laboratorio clinico</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="476456B6-24B7-57AB-C310-599D3F1C0C26" value="true"/>
+<item key="B2F83DAD-44CF-7CBC-1FC7-17EB85EED4A5" value="false"/>
+</engineerTo>
+<referedAttribute>16FFF470-3F19-59A6-155B-5247EAFF9C3F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Hematology" id="AB5CFBCD-EBB2-E950-CA92-8CAFC3930249">
+<createdBy>Kevin</createdBy>
+<createdTime>2022-06-27 10:13:20 UTC</createdTime>
+<generatorID>B30CBEE0-F4FD-5816-C699-35DA6F581288</generatorID>
+<ownerDesignName>estructura laboratorio clinico</ownerDesignName>
+<engineerTo>
+<item key="476456B6-24B7-57AB-C310-599D3F1C0C26" value="true"/>
+<item key="B2F83DAD-44CF-7CBC-1FC7-17EB85EED4A5" value="true"/>
+</engineerTo>
+<referedAttribute>3568F751-A47E-CBD6-0A41-EA44AD768099</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="57599DEB-24F5-03A4-9937-29FDCF72CC5E" name="Diagnostics PK">
+<createdBy>Kevin</createdBy>
+<createdTime>2022-06-27 10:06:15 UTC</createdTime>
+<generatorID>FD3EB38C-9B03-EB6F-594E-B5E8E56E3EA9</generatorID>
+<ownerDesignName>estructura laboratorio clinico</ownerDesignName>
+<engineerTo>
+<item key="476456B6-24B7-57AB-C310-599D3F1C0C26" value="false"/>
+<item key="B2F83DAD-44CF-7CBC-1FC7-17EB85EED4A5" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F1B6FB85-E33D-8099-AF73-EEF8978E51F3</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

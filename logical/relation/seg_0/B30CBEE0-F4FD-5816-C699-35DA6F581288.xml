@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Tiene" directorySegmentName="seg_0" id="B30CBEE0-F4FD-5816-C699-35DA6F581288">
+<createdBy>Kevin</createdBy>
+<createdTime>2022-06-27 10:13:20 UTC</createdTime>
+<ownerDesignName>estructura laboratorio clinico</ownerDesignName>
+<engineerTo>
+<item key="476456B6-24B7-57AB-C310-599D3F1C0C26" value="true"/>
+<item key="B2F83DAD-44CF-7CBC-1FC7-17EB85EED4A5" value="true"/>
+</engineerTo>
+<sourcePk>204B76C2-3E37-0585-5C6D-58D7714BA367</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>5B558677-731F-BF44-C9E6-94D02A1BE0F7</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>7E71D940-AE64-7AC8-10C8-E8718269910B</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

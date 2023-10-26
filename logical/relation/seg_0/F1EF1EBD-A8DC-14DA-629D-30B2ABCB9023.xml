@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Cada una" directorySegmentName="seg_0" id="F1EF1EBD-A8DC-14DA-629D-30B2ABCB9023">
+<createdBy>Kevin</createdBy>
+<createdTime>2022-06-27 10:12:17 UTC</createdTime>
+<ownerDesignName>estructura laboratorio clinico</ownerDesignName>
+<engineerTo>
+<item key="476456B6-24B7-57AB-C310-599D3F1C0C26" value="true"/>
+<item key="B2F83DAD-44CF-7CBC-1FC7-17EB85EED4A5" value="true"/>
+</engineerTo>
+<sourcePk>BE8E2244-BF61-E139-8BAD-97D7479985F2</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>1F2DFAF0-AD1D-9721-31BC-DE5CAF3D667A</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>7E71D940-AE64-7AC8-10C8-E8718269910B</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

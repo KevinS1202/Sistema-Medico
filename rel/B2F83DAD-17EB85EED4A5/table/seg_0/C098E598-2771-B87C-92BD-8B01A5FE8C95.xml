@@ -1,0 +1,121 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C098E598-2771-B87C-92BD-8B01A5FE8C95" name="Specialty">
+<createdBy>Kevin</createdBy>
+<createdTime>2022-06-28 17:30:11 UTC</createdTime>
+<generatorID>5B558677-731F-BF44-C9E6-94D02A1BE0F7</generatorID>
+<ownerDesignName>estructura laboratorio clinico</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Hematology" id="C501CC30-D06C-B14D-942B-64006031288C">
+<createdBy>Kevin</createdBy>
+<createdTime>2022-06-28 17:30:11 UTC</createdTime>
+<generatorID>3568F751-A47E-CBD6-0A41-EA44AD768099</generatorID>
+<ownerDesignName>estructura laboratorio clinico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Chemistry" id="C7FFA6F9-30A5-56B3-7A32-D9A33458CBE7">
+<createdBy>Kevin</createdBy>
+<createdTime>2022-06-28 17:30:11 UTC</createdTime>
+<generatorID>D1228024-70DC-62BF-2F04-B04DDA05E979</generatorID>
+<ownerDesignName>estructura laboratorio clinico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Urine_Analysis" id="BAE84FA0-80EE-FA1F-D2FD-61AA3266FFE7">
+<createdBy>Kevin</createdBy>
+<createdTime>2022-06-28 17:30:11 UTC</createdTime>
+<generatorID>94F0BD8A-5BD9-0D77-0929-0E2571DA5A13</generatorID>
+<ownerDesignName>estructura laboratorio clinico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Feces_Analysis" id="F77DB239-96C1-5368-1E58-95674F255A64">
+<createdBy>Kevin</createdBy>
+<createdTime>2022-06-28 17:30:11 UTC</createdTime>
+<generatorID>DED80111-64ED-9C93-5231-E74929CC00F6</generatorID>
+<ownerDesignName>estructura laboratorio clinico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Immunology" id="4EE6B863-995D-A30C-2FDA-59862C05664F">
+<createdBy>Kevin</createdBy>
+<createdTime>2022-06-28 17:30:11 UTC</createdTime>
+<generatorID>C505412C-DB5B-D5B6-F43E-B7A9565859EF</generatorID>
+<ownerDesignName>estructura laboratorio clinico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Serology" id="C1B7DB2D-C45F-4FED-E36A-2B39E2F6451F">
+<createdBy>Kevin</createdBy>
+<createdTime>2022-06-28 17:30:11 UTC</createdTime>
+<generatorID>9107FE89-935B-165F-A943-ADD40DB60AAF</generatorID>
+<ownerDesignName>estructura laboratorio clinico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Microbiology" id="2002E5CA-B83F-7B15-6FA1-A9A6B99A24C9">
+<createdBy>Kevin</createdBy>
+<createdTime>2022-06-28 17:30:11 UTC</createdTime>
+<generatorID>212A71EE-238A-BB76-D561-82FD46EA2551</generatorID>
+<ownerDesignName>estructura laboratorio clinico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Molecular_Biology" id="33CC7990-1098-EF21-84D9-0ECDEFDE8D0F">
+<createdBy>Kevin</createdBy>
+<createdTime>2022-06-28 17:30:11 UTC</createdTime>
+<generatorID>33BF1B9E-DF03-437E-B215-6376075495C2</generatorID>
+<ownerDesignName>estructura laboratorio clinico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4A36BC46-2E75-BF6E-F75E-36CFFD72F337" name="Specialty_PK">
+<createdBy>Kevin</createdBy>
+<createdTime>2022-06-28 17:30:11 UTC</createdTime>
+<generatorID>204B76C2-3E37-0585-5C6D-58D7714BA367</generatorID>
+<ownerDesignName>estructura laboratorio clinico</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C501CC30-D06C-B14D-942B-64006031288C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="AE0115E2-BEB5-B7F1-5548-F0C41DC306AE" mainViewID="DBA6DFA9-5542-5D85-F511-CD790C5F90C9">
+<createdBy>Kevin</createdBy>
+<createdTime>2022-06-27 08:25:33 UTC</createdTime>
+<ownerDesignName>estructura laboratorio clinico</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

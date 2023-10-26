@@ -1,0 +1,143 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2F9D9C4C-1F0E-4FC0-AB59-682C2AB1CD52" name="Doctor">
+<createdBy>Kevin</createdBy>
+<createdTime>2022-06-27 10:06:15 UTC</createdTime>
+<generatorID>83CB834A-1484-C781-F001-55882639DFE3</generatorID>
+<ownerDesignName>estructura laboratorio clinico</ownerDesignName>
+<engineerTo>
+<item key="476456B6-24B7-57AB-C310-599D3F1C0C26" value="true"/>
+<item key="B2F83DAD-44CF-7CBC-1FC7-17EB85EED4A5" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Doctor Id" id="94ED9E18-44D7-7C22-51AA-95B0E7FE4FBF">
+<createdBy>Kevin</createdBy>
+<createdTime>2022-06-27 10:06:15 UTC</createdTime>
+<generatorID>D1F76928-6B32-F6DB-6F47-40F1D5CE6347</generatorID>
+<ownerDesignName>estructura laboratorio clinico</ownerDesignName>
+<engineerTo>
+<item key="476456B6-24B7-57AB-C310-599D3F1C0C26" value="true"/>
+<item key="B2F83DAD-44CF-7CBC-1FC7-17EB85EED4A5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Last Names" id="8CF65284-129D-1882-A1B4-B8DB99CCEB93">
+<createdBy>Kevin</createdBy>
+<createdTime>2022-06-27 10:06:15 UTC</createdTime>
+<generatorID>573551A3-63AB-DC2E-C897-A1EC9C8AD49E</generatorID>
+<ownerDesignName>estructura laboratorio clinico</ownerDesignName>
+<engineerTo>
+<item key="476456B6-24B7-57AB-C310-599D3F1C0C26" value="true"/>
+<item key="B2F83DAD-44CF-7CBC-1FC7-17EB85EED4A5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Names" id="B5E33E2D-B956-95C8-9A8C-398F3FC4C5A3">
+<createdBy>Kevin</createdBy>
+<createdTime>2022-06-27 10:06:15 UTC</createdTime>
+<generatorID>F16017AB-6160-1FB3-5087-CB96837B02C0</generatorID>
+<ownerDesignName>estructura laboratorio clinico</ownerDesignName>
+<engineerTo>
+<item key="476456B6-24B7-57AB-C310-599D3F1C0C26" value="true"/>
+<item key="B2F83DAD-44CF-7CBC-1FC7-17EB85EED4A5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Specialty" id="71ADD47B-D3CE-B42A-1B32-00A55AEAA8EF">
+<createdBy>Kevin</createdBy>
+<createdTime>2022-06-27 10:06:15 UTC</createdTime>
+<generatorID>21E25E25-2A59-47CF-3F23-9847E3F82216</generatorID>
+<ownerDesignName>estructura laboratorio clinico</ownerDesignName>
+<engineerTo>
+<item key="476456B6-24B7-57AB-C310-599D3F1C0C26" value="true"/>
+<item key="B2F83DAD-44CF-7CBC-1FC7-17EB85EED4A5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Office Number" id="63B131CC-665D-8110-196B-F4C41040FFEA">
+<createdBy>Kevin</createdBy>
+<createdTime>2022-06-27 10:06:15 UTC</createdTime>
+<generatorID>A05E6DD7-6016-A69A-7D6A-F269489CC67B</generatorID>
+<ownerDesignName>estructura laboratorio clinico</ownerDesignName>
+<engineerTo>
+<item key="476456B6-24B7-57AB-C310-599D3F1C0C26" value="true"/>
+<item key="B2F83DAD-44CF-7CBC-1FC7-17EB85EED4A5" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nurse Names" id="DC4A0396-4BC2-B749-36E3-2B684AF7FDF9">
+<createdBy>Kevin</createdBy>
+<createdTime>2022-06-27 10:06:15 UTC</createdTime>
+<generatorID>B64A79E3-3E29-D6A8-0E3E-C7FBC55F5AD0</generatorID>
+<ownerDesignName>estructura laboratorio clinico</ownerDesignName>
+<engineerTo>
+<item key="476456B6-24B7-57AB-C310-599D3F1C0C26" value="true"/>
+<item key="B2F83DAD-44CF-7CBC-1FC7-17EB85EED4A5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Doctor Id1" id="53B7BD42-6D6F-2A84-4B9E-8E405F65F749">
+<createdBy>Kevin</createdBy>
+<createdTime>2022-06-28 17:27:20 UTC</createdTime>
+<generatorID>0958B3C2-BC14-2E99-5048-D6726810A1C3</generatorID>
+<ownerDesignName>estructura laboratorio clinico</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="476456B6-24B7-57AB-C310-599D3F1C0C26" value="true"/>
+<item key="B2F83DAD-44CF-7CBC-1FC7-17EB85EED4A5" value="false"/>
+</engineerTo>
+<referedAttribute>F1B6FB85-E33D-8099-AF73-EEF8978E51F3</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B99AC747-F018-454D-77C2-17A40E635D27" name="Doctor PK">
+<createdBy>Kevin</createdBy>
+<createdTime>2022-06-27 10:06:15 UTC</createdTime>
+<generatorID>2B480144-39C9-293C-035F-F7C5AB02106B</generatorID>
+<ownerDesignName>estructura laboratorio clinico</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="476456B6-24B7-57AB-C310-599D3F1C0C26" value="false"/>
+<item key="B2F83DAD-44CF-7CBC-1FC7-17EB85EED4A5" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>94ED9E18-44D7-7C22-51AA-95B0E7FE4FBF</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
